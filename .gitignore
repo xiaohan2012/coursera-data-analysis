@@ -1,1 +1,4 @@
 *.R[~]
+.Rhistory
+*-Ex.R
+
