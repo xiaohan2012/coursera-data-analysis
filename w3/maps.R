@@ -1,0 +1,5 @@
+library(maps)
+map("world")
+lat <- runif(10,-180,180)
+lon <- runif(10,-90,90)
+points(lat, lon, col="blue", pch=19)
